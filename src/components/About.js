@@ -18,6 +18,8 @@ export default function About() {
             <div className="social-icons">
                 <a className="social-icon" href="https://www.linkedin.com/in/josephbarkie/"><i className="fab fa-linkedin-in" /></a>
                 <a className="social-icon" href="https://github.com/jbarkie"><i className="fab fa-github" /></a>
+                <a className="social-icon" href="https://twitter.com/jbarkie27"><i className="fab fa-twitter" /></a>
+                <a className="social-icon" href="https://www.facebook.com/joe.barkie/"><i className="fab fa-facebook" /></a>
                 <a className="social-icon" href="mailto:josephbarkie@hotmail.com"><i className="fa-solid fa-envelope" /></a>
             </div>
             </div>

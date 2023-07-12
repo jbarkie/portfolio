@@ -4,7 +4,6 @@ import Experience from './Experience';
 import Education from './Education';
 import Skills from './Skills';
 import Interests from './Interests';
-import Contact from './Contact';
 
 export default function Page() {
     return (
@@ -14,7 +13,6 @@ export default function Page() {
             <Education></Education>
             <Skills></Skills>
             <Interests></Interests>
-            <Contact></Contact>
         </div>
     );
 };
