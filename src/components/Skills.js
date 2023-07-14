@@ -11,14 +11,11 @@ export default function Skills() {
                     <li className="list-inline-item"><i className="fab fa-java" /></li>
                     <li className="list-inline-item"><i className="fab fa-python" /></li>
                     <li className="list-inline-item"><i className="fab fa-react" /></li>
-                    <li className="list-inline-item"><i className="fab fa-js-square" /></li>
                     <li className="list-inline-item"><i className="fab fa-angular" /></li>
+                    <li className="list-inline-item"><i className="fab fa-js-square" /></li>
                     <li className="list-inline-item"><i className="fab fa-html5" /></li>
-                    <li className="list-inline-item"><i className="fab fa-css3-alt" /></li>
                     <li className="list-inline-item"><i className="fab fa-node-js" /></li>
-                    <li className="list-inline-item"><i className="fab fa-sass" /></li>
                     <li className="list-inline-item"><i className="fab fa-aws" /></li>
-                    <li className="list-inline-item"><i className="fab fa-npm" /></li>
                     <li className="list-inline-item"><i className="fab fa-github" /></li>
                     <li className="list-inline-item"><i className="fab fa-linux" /></li>
                     <li className="list-inline-item"><i className="fab fa-apple" /></li>
