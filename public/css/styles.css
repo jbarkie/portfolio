@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 196, 70, 14;
+  --bs-primary-rgb: 204, 85, 0;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -10995,5 +10995,13 @@ section.resume-section .resume-section-content {
 @media (max-width: 767px) {
   #skills > div > ul {
     width: 50%;
+  }
+  #interests {
+    display: block;
+  }
+
+  #interests > aside {
+    width: 100%;
+    margin: auto;
   }
 }
