@@ -7,7 +7,7 @@ import Interests from './Interests';
 
 export default function Page() {
     return (
-        <div class="container-fluid p-0">
+        <div className="container-fluid p-0">
             <About></About>
             <Experience></Experience>
             <Education></Education>
