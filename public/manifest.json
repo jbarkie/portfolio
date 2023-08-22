@@ -8,9 +8,10 @@
       "sizes": "53x81"
     }
   ],
+  "id": "/portfolio/",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#cc5400",
   "background_color": "#ffffff",
-  "description": "Portfolio website of Joseph Barkie, Software Developer"
+  "description": "Portfolio website of Joseph Barkie, Software Developer" 
 }

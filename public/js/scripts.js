@@ -7,8 +7,6 @@
 // Scripts
 // 
 
-import bootstrap from 'bootstrap';
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
