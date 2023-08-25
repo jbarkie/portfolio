@@ -13,7 +13,7 @@ export default function About() {
                 1225 W Prospect Rd Apt D208 · Fort Collins, CO 80526 · (860) 301-4592 
             </div>
             <p className="lead mb-5">
-            I am an undergraduate student studying Computer Science at Colorado State University, graduating in December 2023. I work as a Software Developer Intern for Progressive Insurance and as a Web Developer for the University Honors Program at CSU. 
+            I am an undergraduate student studying Computer Science at Colorado State University, graduating in December 2023. I am a Web Developer for the University Honors Program at CSU and have valuable experience in full-stack development with ASP.NET MVC. Through my studies, I have also developed skills in Java, Python, C, C++, Python, Angular, SQL, AWS, Docker, and other languages and technologies. 
             </p>
             <div className="social-icons">
                 <a className="social-icon" href="https://www.linkedin.com/in/josephbarkie/"><i className="fab fa-linkedin-in" /></a>
