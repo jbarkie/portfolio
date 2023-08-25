@@ -1,4 +1,5 @@
 import React from 'react';
+import badlands from '../images/badlands.jpg'
 
 export default function Interests() {
     return (
@@ -13,7 +14,7 @@ export default function Interests() {
                 </div>
             </main>
             <aside>
-                    <img src="images/badlands.jpg" alt="Badlands near my hometown in North Dakota." className='img-fluid'/>
+                    <img src={badlands} alt="Badlands near my hometown in North Dakota." className='img-fluid'/>
             </aside>
         </section>
         <hr className="m-0" />
