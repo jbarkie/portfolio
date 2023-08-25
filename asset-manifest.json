@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/josephbarkie.com/static/css/main.884c645c.css",
-    "main.js": "/josephbarkie.com/static/js/main.6426a526.js",
-    "static/js/787.1ed0c42c.chunk.js": "/josephbarkie.com/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/josephbarkie.com/index.html",
-    "main.884c645c.css.map": "/josephbarkie.com/static/css/main.884c645c.css.map",
-    "main.6426a526.js.map": "/josephbarkie.com/static/js/main.6426a526.js.map",
-    "787.1ed0c42c.chunk.js.map": "/josephbarkie.com/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.884c645c.css",
+    "main.js": "/static/js/main.05289c03.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/index.html",
+    "main.884c645c.css.map": "/static/css/main.884c645c.css.map",
+    "main.05289c03.js.map": "/static/js/main.05289c03.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.884c645c.css",
-    "static/js/main.6426a526.js"
+    "static/js/main.05289c03.js"
   ]
 }
