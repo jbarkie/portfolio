@@ -11,7 +11,7 @@ export default function About() {
             </div>
             <h1 className="mb-0">
                 Joseph
-                <span className="text-primary">Barkie</span>
+                <span className="text-primary"> Barkie</span>
             </h1>
             <div className="subheading mb-5">
                 1225 W Prospect Rd Apt D208 · Fort Collins, CO 80526 · (860) 301-4592 
