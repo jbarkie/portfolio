@@ -10992,6 +10992,10 @@ section.resume-section .resume-section-content {
   grid-template-columns: 1fr 1fr;
 }
 
+.about-mobile-view {
+  display: none;
+}
+
 @media (max-width: 767px) {
   #skills > div > ul {
     width: 50%;
@@ -11003,5 +11007,13 @@ section.resume-section .resume-section-content {
   #interests > aside {
     width: 100%;
     margin: auto;
+  }
+
+  .about-mobile-view {
+    display: flex;
+    float: right;
+    padding-bottom: 50px;
+    max-width: 30%;
+
   }
 }
