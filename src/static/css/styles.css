@@ -11002,6 +11002,8 @@ section.resume-section .resume-section-content {
   }
   #interests {
     display: block;
+    text-align: center;
+    justify-content: center;
   }
 
   #interests > aside {
@@ -11012,8 +11014,26 @@ section.resume-section .resume-section-content {
   .about-mobile-view {
     display: flex;
     float: right;
-    padding-bottom: 50px;
     max-width: 30%;
+  }
 
+  .dev-icons {
+    margin: auto;
+    margin-bottom: 0.75em;
+    width: 100%;
+  }
+
+  #skills {
+    text-align: center;
+  }
+
+  #interests > main {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 2em;
+  }
+
+  #education > p {
+    line-height: 0;
   }
 }
