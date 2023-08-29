@@ -10992,16 +10992,48 @@ section.resume-section .resume-section-content {
   grid-template-columns: 1fr 1fr;
 }
 
+.about-mobile-view {
+  display: none;
+}
+
 @media (max-width: 767px) {
   #skills > div > ul {
     width: 50%;
   }
   #interests {
     display: block;
+    text-align: center;
+    justify-content: center;
   }
 
   #interests > aside {
     width: 100%;
     margin: auto;
+  }
+
+  .about-mobile-view {
+    display: flex;
+    float: right;
+    max-width: 30%;
+  }
+
+  .dev-icons {
+    margin: auto;
+    margin-bottom: 0.75em;
+    width: 100%;
+  }
+
+  #skills {
+    text-align: center;
+  }
+
+  #interests > main {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 2em;
+  }
+
+  #education > p {
+    line-height: 0;
   }
 }

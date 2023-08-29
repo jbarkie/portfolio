@@ -20,7 +20,7 @@ export default function Experience() {
               </p>
             </div>
             <div className="flex-shrink-0">
-              <span className="date-range-heading">May 2023 - Present</span>
+              <span className="date-range-heading">May 2023 - August 2023</span>
             </div>
           </div>
           <div className="d-flex flex-column flex-md-row justify-content-between mb-3">

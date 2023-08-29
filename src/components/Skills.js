@@ -5,7 +5,7 @@ export default function Skills() {
         <div>
         <section className="resume-section" id="skills">
             <div className="resume-section-content">
-            <h2 className="mb-1">Skills</h2>
+            <h2 className="mb-1" id="skills-heading">Skills</h2>
             <div className="subheading mb-1">Programming Languages &amp; Tools</div>
                 <ul className="list-inline dev-icons">
                     <li className="list-inline-item"><i className="fab fa-java" /></li>

@@ -1,13 +1,17 @@
 import React from 'react';
+import headshot from '../images/headshot.jpg'
 
 export default function About() {
     return (
         <div>
         <section className="resume-section" id="about">
             <div className="resume-section-content">
+            <div className="about-mobile-view">
+                <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={headshot} alt="A headshot photograph of Joe" />
+            </div>
             <h1 className="mb-0">
                 Joseph
-                <span className="text-primary">Barkie</span>
+                <span className="text-primary"> Barkie</span>
             </h1>
             <div className="subheading mb-5">
                 1225 W Prospect Rd Apt D208 · Fort Collins, CO 80526 · (860) 301-4592 
