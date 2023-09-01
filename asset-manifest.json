@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d89c2ccd.css",
-    "main.js": "/static/js/main.7cf8339d.js",
+    "main.js": "/static/js/main.0b2ab211.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.84e7fbc1cdf18903e29d.jpg",
     "static/media/badlands.jpg": "/static/media/badlands.d6292b3ef8e2fd8fdc2b.jpg",
     "index.html": "/index.html",
     "main.d89c2ccd.css.map": "/static/css/main.d89c2ccd.css.map",
-    "main.7cf8339d.js.map": "/static/js/main.7cf8339d.js.map",
+    "main.0b2ab211.js.map": "/static/js/main.0b2ab211.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d89c2ccd.css",
-    "static/js/main.7cf8339d.js"
+    "static/js/main.0b2ab211.js"
   ]
 }
