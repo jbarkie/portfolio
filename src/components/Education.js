@@ -15,7 +15,7 @@ export default function Education() {
                 </div>
                 <div className="flex-shrink-0"><span className="date-range-heading">August 2021 - December 2023</span></div>
             </div>
-            <div className="d-flex flex-column flex-md-row justify-content-between">
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-3">
                 <div className="flex-grow-1">
                 <h3 className="mb-0">Front Range Community College</h3>
                 <div className="subheading mb-3">Associate of the Arts</div>
@@ -24,7 +24,7 @@ export default function Education() {
                 </div>
                 <div className="flex-shrink-0"><span className="date-range-heading">August 2018 - May 2020</span></div>
             </div>
-            <div className="d-flex flex-column flex-md-row justify-content-between">
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-3">
                 <div className="flex-grow-1">
                 <h3 className="mb-0">Haddam-Killingworth High School</h3>
                 <div className="subheading mb-3">High School Diploma</div>

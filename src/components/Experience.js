@@ -11,12 +11,10 @@ export default function Experience() {
               <h3 className="mb-0">Software Developer Intern</h3>
               <div className="subheading mb-3">Progressive Insurance</div>
               <p>
-                Developing and maintaining automated regression tests for .NET
-                web applications using Selenium and SpecFlow.
+                Designed and developed an Angular web application for a $1.5 billion subset of customers that saves approximately 302 hours of labor each year.
               </p>
               <p>
-                Designing and developing an Angular web application for a $1.5
-                billion subset of Progressive customers.
+                Developed and maintained a suite of automated regression tests for .NET web applications, leveraging C#, Selenium, and SpecFlow to decrease overall testing time and improve product quality.
               </p>
             </div>
             <div className="flex-shrink-0">
@@ -30,16 +28,14 @@ export default function Experience() {
                 Colorado State University Honors Program
               </div>
               <p>
-                Responsible for maintaining the Honors Program website used
-                daily by over 1,900 students and faculty and database
-                management.
+                Maintain the Honors Program website which is used daily by over 1,900 students and faculty.
               </p>
               <p>
-                Develop and maintain web applications using ASP.NET MVC and
-                Microsoft SQL Server on the back end and MojoPortal and
+                Develop web applications using ASP.NET MVC snf
+                Microsoft SQL Server on the back end, and MojoPortal and
                 Bootstrap on the front end.
               </p>
-              <p>Troubleshoot and resolve user issues in a timely manner.</p>
+              <p>Reduced user-reported incidents by 20% year-over-year by implementing new features and fixing defects.</p>
             </div>
             <div className="flex-shrink-0">
               <span className="date-range-heading">
@@ -47,17 +43,16 @@ export default function Experience() {
               </span>
             </div>
           </div>
-          <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="d-flex flex-column flex-md-row justify-content-between mb-3">
             <div className="flex-grow-1">
               <h3 className="mb-0">Research Assistant</h3>
               <div className="subheading mb-3">
                 Colorado State University Computer Science Department
               </div>
               <p>
-                Contribute to research on privacy threats in the collection of
-                data from various Android health and fitness apps using machine
-                learning tools and Android Studio.
+                Researched security threats in Android health and fitness apps using machine learning and natural language processing tools.
               </p>
+              <p>Developed a Python program to detect if a given Android application uses unsafe permissions and poses a privacy threat to users.</p>
             </div>
             <div className="flex-shrink-0">
               <span className="date-range-heading">
