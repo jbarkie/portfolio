@@ -10996,6 +10996,10 @@ section.resume-section .resume-section-content {
   display: none;
 }
 
+#experience {
+  padding-top: 2em;
+}
+
 @media (max-width: 767px) {
   #skills > div > ul {
     width: 50%;
