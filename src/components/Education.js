@@ -10,8 +10,8 @@ export default function Education() {
                 <div className="flex-grow-1">
                 <h3 className="mb-0">Colorado State University</h3>
                 <div className="subheading mb-3">Bachelor of Science - Computer Science</div>
-                <p>GPA: 3.95</p>
-                <p>Made Dean's List every semester.</p>
+                <p>GPA: 3.94</p>
+                <p>Graduated cum laude and made Dean's List every semester.</p>
                 </div>
                 <div className="flex-shrink-0"><span className="date-range-heading">August 2021 - December 2023</span></div>
             </div>
