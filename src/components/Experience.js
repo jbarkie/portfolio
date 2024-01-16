@@ -39,7 +39,7 @@ export default function Experience() {
             </div>
             <div className="flex-shrink-0">
               <span className="date-range-heading">
-                November 2021 - Present
+                November 2021 - December 2023
               </span>
             </div>
           </div>
