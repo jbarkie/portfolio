@@ -10978,12 +10978,18 @@ section.resume-section .resume-section-content {
     min-height: 100vh;
   }
 }
+
 @media (min-width: 992px) {
+
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .date-range-mobile {
+    display: none;
   }
 }
 
@@ -11000,7 +11006,8 @@ section.resume-section .resume-section-content {
   padding-top: 2em;
 }
 
-@media (max-width: 767px) {
+
+@media (max-width: 991px) {
   #skills > div > ul {
     width: 50%;
   }
@@ -11018,7 +11025,7 @@ section.resume-section .resume-section-content {
   .about-mobile-view {
     display: flex;
     float: right;
-    max-width: 30%;
+    max-width: 40%;
   }
 
   .dev-icons {
@@ -11039,5 +11046,23 @@ section.resume-section .resume-section-content {
 
   #education > p {
     line-height: 0;
+  }
+
+  #about-p {
+    margin-right: 1em;
+  }
+
+  .date-range-heading {
+    display: none;
+  }
+
+  .mb-2 {
+    margin-bottom: 0 !important;
+  }
+
+  .date-range-mobile > p {
+    font-family: "Sofia Sans Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #bd5d38;
+    font-size: 1.2em;
   }
 }

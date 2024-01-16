@@ -6,18 +6,15 @@ export default function About() {
         <div>
         <section className="resume-section" id="about">
             <div className="resume-section-content">
-            <div className="about-mobile-view">
-                <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={headshot} alt="A headshot photograph of Joe" />
-            </div>
-            <h1 className="mb-0">
-                Joseph
-                <span className="text-primary"> Barkie</span>
+            <h1>
+                <div className="about-mobile-view">
+                    <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={headshot} alt="A headshot of Joe" />
+                </div>
+                Hello, I'm
+                <span className="text-primary"> Joe Barkie</span>
             </h1>
-            <div className="subheading mb-5">
-                1225 W Prospect Rd Apt D208 · Fort Collins, CO 80526 · (860) 301-4592 
-            </div>
-            <p className="lead mb-5">
-            I am an undergraduate Computer Science student at Colorado State University, graduating in December 2023. I am a Web Developer for the University Honors Program at CSU and have valuable experience in full-stack development with ASP.NET MVC. Through my studies, I have also developed skills in Java, Python, C, C++, Python, Angular, SQL, AWS, Docker, and other languages and technologies. 
+            <p className="lead mb-5" id="about-p">
+            I am a software developer based in Fort Collins, Colorado, currently working for Progressive Insurance. I graduated cum laude in December 2023 from Colorado State University with a degree in Computer Science. I am passionate for all things technology, and have valuable experience in full-stack development using technologies like ASP.NET MVC, Java, React, Angular, SQL, AWS, and Docker. Although I am just starting my career, I am eager to learn and grow in my journey towards becoming a proficient and versatile software engineer.
             </p>
             <div className="social-icons">
                 <a className="social-icon" href="https://www.linkedin.com/in/josephbarkie/"><i className="fab fa-linkedin-in" /></a>
