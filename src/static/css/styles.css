@@ -11002,11 +11002,6 @@ section.resume-section .resume-section-content {
   display: none;
 }
 
-#experience {
-  padding-top: 2em;
-}
-
-
 @media (max-width: 991px) {
   #skills > div > ul {
     width: 50%;
@@ -11026,6 +11021,8 @@ section.resume-section .resume-section-content {
     display: flex;
     float: right;
     max-width: 40%;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
   }
 
   .dev-icons {
@@ -11046,10 +11043,6 @@ section.resume-section .resume-section-content {
 
   #education > p {
     line-height: 0;
-  }
-
-  #about-p {
-    margin-right: 1em;
   }
 
   .date-range-heading {
