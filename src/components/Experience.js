@@ -10,6 +10,7 @@ export default function Experience() {
             <div className="flex-grow-1">
               <h3 className="mb-0">Software Developer Intern</h3>
               <div className="subheading mb-2">Progressive Insurance</div>
+              <div className="date-range-mobile"><p>May 2023 - August 2023</p></div>
               <p>
                 Designed and developed an Angular web application for a $1.5 billion subset of customers that saves approximately 302 hours of labor each year.
               </p>
@@ -27,6 +28,7 @@ export default function Experience() {
               <div className="subheading mb-2">
                 Colorado State University Honors Program
               </div>
+              <div className="date-range-mobile"><p>November 2021 - December 2023</p></div>
               <p>
                 Maintain the Honors Program website which is used daily by over 1,900 students and faculty.
               </p>
@@ -49,6 +51,7 @@ export default function Experience() {
               <div className="subheading mb-2">
                 CSU Computer Science Department
               </div>
+              <div className="date-range-mobile"><p>February 2023 - May 2023</p></div>
               <p>
                 Researched security threats in Android health and fitness apps using machine learning and natural language processing tools.
               </p>
