@@ -11021,6 +11021,8 @@ section.resume-section .resume-section-content {
     display: flex;
     float: right;
     max-width: 40%;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
   }
 
   .dev-icons {
@@ -11041,10 +11043,6 @@ section.resume-section .resume-section-content {
 
   #education > p {
     line-height: 0;
-  }
-
-  #about-p {
-    margin-right: 1em;
   }
 
   .date-range-heading {
