@@ -18,7 +18,7 @@ export default function About() {
                 </span>
             </h1>
             <p className="lead mb-5" id="about-p">
-            I am a software developer based in Fort Collins, Colorado, currently working for Progressive Insurance. I graduated cum laude in December 2023 from Colorado State University with a degree in Computer Science. I am passionate for all things technology, and have valuable experience in full-stack development using technologies like ASP.NET MVC, Java, React, Angular, SQL, AWS, and Docker. Although I am just starting my career, I am eager to learn and grow in my journey towards becoming a proficient and versatile software engineer.
+            I am a software developer based in Fort Collins, Colorado, currently working for Progressive Insurance. I graduated from Colorado State University in December 2023 with a degree in Computer Science. I am passionate for all things technology, and have valuable experience in full-stack development using technologies like ASP.NET MVC, Java, React, Angular, SQL, AWS, and Docker. Although I am just starting my career, I am eager to learn and grow in my journey towards becoming a proficient and versatile software engineer.
             </p>
             <div className="social-icons">
                 <a className="social-icon" href="https://www.linkedin.com/in/josephbarkie/"><i className="fab fa-linkedin-in" /></a>
