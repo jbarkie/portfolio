@@ -8,8 +8,7 @@ export default function Interests() {
             <main>
                 <div className="resume-section-content">
                     <h2 className="mb-3">Interests</h2>
-                    <p>When I'm not working or studying, I have several hobbies that keep me very busy. 
-                        I play guitar, bass, drums, and piano, and enjoy listening to all kinds of music. I  enjoy collecting vinyl records, and currently, my favorite record to spin is <em>Mud Slide Slim and the Blue Horizon</em> by James Taylor. I love to be outside as much as possible, whether I am hiking, biking, playing basketball, or just catching some sunshine! </p>
+                    <p>When I'm not working or studying, you might find me playing guitar, listening to  music, or outside catching some sunshine. I am an avid collector of vinyl records, my favorite lately being <em>Mud Slide Slim and the Blue Horizon</em> by James Taylor. I love to be outside as much as possible, whether I am hiking, biking, snowboarding, or reading a book in my hammock!</p>
                     <p className="mb-0"></p>
                 </div>
             </main>
