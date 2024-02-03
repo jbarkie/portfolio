@@ -12,8 +12,8 @@ export default function About() {
                 </div>
                 Hello, I'm <br className="about-mobile-view" />
                 <span className="text-primary"> 
-                    <p class="typewrite" data-period="2000" data-type='[ " Joe Barkie.", " a software developer.", " a Colorado State alum.", " pleased to meet you!"]'>
-                    <span class="wrap"></span>
+                    <p className="typewrite" data-period="2000" data-type='[ " Joe Barkie.", " a software developer.", " a Colorado State alum.", " pleased to meet you!"]'>
+                    <span className="wrap"></span>
                     </p>
                 </span>
             </h1>
