@@ -33,7 +33,7 @@ export default function Experience() {
                 Maintain the Honors Program website which is used daily by over 1,900 students and faculty.
               </p>
               <p>
-                Develop web applications using ASP.NET MVC snf
+                Develop web applications using ASP.NET MVC and
                 Microsoft SQL Server on the back end, and MojoPortal and
                 Bootstrap on the front end.
               </p>
