@@ -1,4 +1,4 @@
-const jobs = [
+const Jobs = [
     {
         title: "Software Developer Intern",
         company: "Progressive Insurance",
@@ -29,4 +29,4 @@ const jobs = [
     }
 ];
 
-export default jobs;
+export default Jobs;

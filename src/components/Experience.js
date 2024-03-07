@@ -1,5 +1,5 @@
 import React from "react";
-import jobs from "../models/jobs";
+import Jobs from "../models/Jobs";
 
 export default function Experience() {
   return (
@@ -7,7 +7,7 @@ export default function Experience() {
       <section className="resume-section" id="experience">
         <div className="resume-section-content">
           <h2 className="mb-3">Experience</h2>
-          {jobs.map((details, index) => (<Job key={index} {...details} />))}
+          {Jobs.map((details, index) => (<Job key={index} {...details} />))}
         </div>
       </section>
       <hr className="m-0" />
