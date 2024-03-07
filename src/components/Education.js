@@ -1,5 +1,5 @@
 import React from 'react';
-import schools from '../models/schools';
+import Schools from '../models/Schools';
 
 export default function Education() {
     return (
@@ -7,7 +7,7 @@ export default function Education() {
             <section className="resume-section" id="education">
                 <div className="resume-section-content">
                     <h2 className="mb-4">Education</h2>
-                    {schools.map((details, index) => <School key={index} {...details} />)}
+                    {Schools.map((details, index) => <School key={index} {...details} />)}
                 </div>
             </section>
             <hr className="m-0" />
