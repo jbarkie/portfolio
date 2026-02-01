@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   title: "Joseph Barkie: Software Developer",
   description: "Joseph Barkie, Software Developer at Progressive",
   authors: [{ name: "Joseph Barkie" }],
-  themeColor: "#ffffff",
 };
 
 const sofia = Sofia_Sans_Extra_Condensed({
