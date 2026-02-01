@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${sofia.variable}`}>
       <body id="page-top">
-        <div id="root"></div>
+        <div id="root">{children}</div>
         <ClientScripts />
       </body>
     </html>
