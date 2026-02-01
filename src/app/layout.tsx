@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import React from "react";
 import "./styles.css";
-import "./scripts.js";
+import ClientScripts from "./ClientScripts";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -30,6 +30,7 @@ export default function RootLayout({
     <html lang="en" className={`${sofia.variable}`}>
       <body id="page-top">
         <div id="root"></div>
+        <ClientScripts />
       </body>
     </html>
   );
