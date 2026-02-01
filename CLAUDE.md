@@ -49,5 +49,8 @@ Uses Bootstrap CSS classes (container-fluid, flex utilities, etc.) with custom C
 
 ### Deployment
 - GitHub Pages deployment configured via `gh-pages` package
-- Run `npm run deploy` to build and deploy to gh-pages branch
+- GitHub Actions workflow (`.github/workflows/deploy.yml`) automatically deploys when changes are pushed to main branch
+  - Only triggers on content changes: `src/`, `public/`, `package.json`, `package-lock.json`, `yarn.lock`
+  - Documentation changes (CLAUDE.md, README.md) do NOT trigger deployment
+- Manual deployment: Run `npm run deploy` to build and deploy to gh-pages branch
 - CNAME file in public/ ensures custom domain (josephbarkie.com) persists after deployment
