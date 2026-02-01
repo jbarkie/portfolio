@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import headshot from '../images/headshot.jpg'
 import SocialIcons from '../models/SocialIcons';
 
@@ -22,9 +23,11 @@ export default function About() {
     );
 };
 
-function SocialMediaLinks({ name, className, href }) {
+function SocialMediaLinks({ name, icon, href }) {
     return (
-        <a className="social-icon" href={href} aria-label={name}><i className={className}/></a>
+        <a className="social-icon" href={href} aria-label={name}>
+            <FontAwesomeIcon icon={icon} />
+        </a>
     );
 };
 
@@ -40,7 +43,7 @@ function MainHeading() {
     return (
         <h1>
             Hello, I'm <br className="about-mobile-view" />
-            <span className="text-primary"> 
+            <span className="text-primary">
                 <p className="typewrite" data-period="2000" data-type='[ " Joe Barkie.", " a software developer.", " a Colorado State alum.", " pleased to meet you!"]'>
                 <span className="wrap"></span>
                 </p>

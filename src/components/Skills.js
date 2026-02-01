@@ -1,7 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJava, faPython, faReact, faAngular, faSquareJs, faHtml5, faNodeJs, faAws, faGithub, faLinux, faApple, faWindows } from '@fortawesome/free-brands-svg-icons';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export default function Skills() {
-    const icons = ['java', 'python', 'react', 'angular', 'js-square', 'html5', 'node-js', 'aws', 'github', 'linux', 'apple', 'windows'];
+    const icons = [faJava, faPython, faReact, faAngular, faSquareJs, faHtml5, faNodeJs, faAws, faGithub, faLinux, faApple, faWindows];
     const programmingLanguages = ['Python', 'Java', 'C', 'C++', 'C#', 'React', 'JavaScript', 'SQL', 'Bash', 'HTML', 'CSS'];
     const tools = ['Agile Development & Scrum', 'ASP.NET MVC', 'Angular', 'Docker', 'AWS', 'DynamoDB', 'Postman', 'SpecFlow', 'Selenium', 'JUnit', 'Microsoft SQL Server'];
 
@@ -23,25 +26,25 @@ export default function Skills() {
     );
 };
 
-function Icons(props) {
+function Icons({ icons }) {
     return (
         <ul className="list-inline dev-icons">
-            {props.icons.map((icon, index) => (
+            {icons.map((icon, index) => (
                 <li className="list-inline-item" key={index}>
-                    <i className={`fab fa-${icon}`} />
+                    <FontAwesomeIcon icon={icon} />
                 </li>
             ))}
         </ul>
     );
 };
-  
-function Descriptions(props) {
+
+function Descriptions({ items }) {
     return (
         <div>
             <ul className="fa-ul mb-0">
-                {props.items.map((item, index) => (
+                {items.map((item, index) => (
                     <li key={index}>
-                        <span className="fa-li"><i className="fas fa-check" /></span>
+                        <span className="fa-li"><FontAwesomeIcon icon={faCheck} /></span>
                         {item}
                     </li>
                 ))}
