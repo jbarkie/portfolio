@@ -31,7 +31,7 @@ function SocialMediaLinks({ name, className, href }) {
 function MobileProfilePicture() {
     return (
         <div className="about-mobile-view">
-            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={headshot} alt="A headshot of Joe" />
+            <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={headshot.src} alt="A headshot of Joe" />
         </div>
     );
 };

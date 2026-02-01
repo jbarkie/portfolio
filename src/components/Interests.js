@@ -13,7 +13,7 @@ export default function Interests() {
                 </div>
             </main>
             <aside>
-                    <img src={badlands} alt="Badlands near my hometown in North Dakota." className='img-fluid'/>
+                    <img src={badlands.src} alt="Badlands near my hometown in North Dakota." className='img-fluid'/>
             </aside>
         </section>
         <hr className="m-0" />
