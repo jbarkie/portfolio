@@ -1,0 +1,42 @@
+import type { Metadata } from "next";
+import React from "react";
+import "./styles.css";
+import ClientScripts from "./ClientScripts";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
+import { Sofia_Sans_Extra_Condensed, Mulish } from "next/font/google";
+
+export const metadata: Metadata = {
+  title: "Joseph Barkie: Software Developer",
+  description: "Joseph Barkie, Software Developer at Progressive",
+  authors: [{ name: "Joseph Barkie" }],
+};
+
+const sofia = Sofia_Sans_Extra_Condensed({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-sofia",
+});
+
+const mulish = Mulish({
+  subsets: ["latin"],
+  weight: ["400", "800"],
+  variable: "--font-mulish",
+});
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en" className={`${sofia.variable} ${mulish.variable}`}>
+      <body id="page-top">
+        <div id="root">{children}</div>
+        <ClientScripts />
+      </body>
+    </html>
+  );
+}

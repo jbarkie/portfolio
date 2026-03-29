@@ -1,27 +1,30 @@
+import { faLinkedinIn, faGithub, faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 const SocialIcons = [
     {
         name: "LinkedIn profile link",
-        className: "fab fa-linkedin-in",
+        icon: faLinkedinIn,
         href: "https://www.linkedin.com/in/josephbarkie/"
     },
     {
         name: "GitHub profile link",
-        className: "fab fa-github",
+        icon: faGithub,
         href: "https://github.com/jbarkie"
     },
     {
         name: "Twitter profile link",
-        className: "fab fa-twitter",
+        icon: faTwitter,
         href: "https://twitter.com/jbarkie27"
     },
     {
         name: "Facebook profile link",
-        className: "fab fa-facebook",
+        icon: faFacebook,
         href: "https://www.facebook.com/joe.barkie/"
     },
     {
         name: "Send me an e-mail",
-        className: "fa-solid fa-envelope",
+        icon: faEnvelope,
         href: "mailto:josephbarkie@hotmail.com"
     }
 ];
