@@ -77,7 +77,7 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
-window.onload = function() {
+function initTypewriter() {
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
@@ -91,4 +91,19 @@ window.onload = function() {
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.05em solid #343a3f; animation: blink-caret 0.75s step-end infinite; } @keyframes blink-caret { 50% { border-color: transparent; }  }";
     document.body.appendChild(css);
-};
+}
+
+// This script is loaded dynamically after the page has already loaded, so
+// window.onload will never fire. Instead, run immediately if .typewrite is
+// already in the DOM, or watch for it to be added (race with dynamic App import).
+if (document.getElementsByClassName('typewrite').length > 0) {
+    initTypewriter();
+} else {
+    var observer = new MutationObserver(function() {
+        if (document.getElementsByClassName('typewrite').length > 0) {
+            observer.disconnect();
+            initTypewriter();
+        }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+}
