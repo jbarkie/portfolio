@@ -23,7 +23,7 @@
     "build": "next build",
     "start": "npx serve@latest ./build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --nojekyll"
   },
   "eslintConfig": {
     "extends": [
