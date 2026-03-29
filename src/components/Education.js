@@ -1,5 +1,5 @@
 import React from 'react';
-import Schools from '../models/Schools';
+import Schools from '../models/schools';
 
 export default function Education() {
     return (
