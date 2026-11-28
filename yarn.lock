@@ -31,9 +31,9 @@
     picocolors "^1.0.0"
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.9.2":
-  version "7.29.16"
-  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.16.tgz"
-  integrity sha512-LKBjGopxrQE0aFucNL69OyyyF143MOWUULEOftU3oCgyD35Sy84UUpVnt/sNvTb7ZmCyALSt7om+fojlW35zYQ==
+  version "7.29.15"
+  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.15.tgz"
+  integrity sha512-304gsbbGVmQc+cNGHzwHBlqepYdWLKj3VXCQBGt/EGcV7PUPfKI7kAUNW1FZEOCwlQiLvQjg1JEaAlRQ616h+Q==
 
 "@emnapi/runtime@^1.11.3":
   version "1.11.3"
@@ -356,9 +356,9 @@ balanced-match@^1.0.0:
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
 baseline-browser-mapping@^2.9.19:
-  version "2.11.40"
-  resolved "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.40.tgz"
-  integrity sha512-WJhaQ3kW5+5BpOduI64ewvykhCyK/IHHG5jCIzivmW2nkYPRowUjs0DbBXY4CAr1LLrN7QEzZGL9727aXH9sJA==
+  version "2.11.39"
+  resolved "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.39.tgz"
+  integrity sha512-Q9buOYhr2ggrEZpImICecZTJHCCd8yXkRUokFlUEQ8uiD6oP82F4W4jWnhOHZYV+wlvrC51V7Wy0ULyWjil5Wg==
 
 bootstrap@^5.3.8:
   version "5.3.8"
